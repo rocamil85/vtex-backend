@@ -12,6 +12,9 @@
     "node": "6.x",
     "graphql": "1.x"
   },
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
   "dependencies": {
     "vtex.styleguide": "9.x"
   },
